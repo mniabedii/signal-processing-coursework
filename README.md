@@ -9,13 +9,17 @@ The official project specification document will be linked in this GitHub reposi
 
 Each task in this project explores a different concept in signals and systems:
 
-1. Sinusoidal Wave Generation & Fourier Series
-2. Sampling Theory & Audio Analysis
-3. Adding and Removing Noise with Filters
-4. Spectrograms and STFT
-5. Sawtooth Wave Analysis
-6. Two-Way Audio Crossover Filter Design
+1. Generating and Analyzing Sinusoidal
+Waves with Different Frequencies
+2. Sampling Theory and Frequency Analysis
+of a Music File
+3. Adding Noise to Specific Frequencies
+4. Spectrogram and STFT Analysis
+5. Generating and Analyzing a Sawtooth
+Wave
+6. Designing a Two-Way Audio Crossover
 7. Verifying the Convolution Theorem
+
 
 ## Structure
 
