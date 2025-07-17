@@ -3,6 +3,8 @@
 This is the final project for the **Signals and Systems** course at KNTU University, completed in Summer 2025.  
 The project focuses on practical signal processing tasks using MATLAB, ranging from waveform generation to audio filtering and Fourier analysis.
 
+The official project specification document will be linked in this GitHub repository’s **About** section for reference.
+
 ## Overview
 
 Each task in this project explores a different concept in signals and systems:
@@ -25,6 +27,3 @@ Each task in this project explores a different concept in signals and systems:
 ## How to Run
 
 Open any script inside the `/code/TaskX/` folder using MATLAB or MATLAB Online. Each `TaskX_main.m` runs that task end-to-end.
-
-## Project Specification
-The official project specification document will be linked in this GitHub repository’s **About** section for reference.
