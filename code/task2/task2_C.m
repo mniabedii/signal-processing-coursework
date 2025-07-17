@@ -1,4 +1,4 @@
-[y, Fs] = audioread('../audio/MaxRichter-Path.wav');  % relative path ti the audio file
+[y, Fs] = audioread('../audio/MaxRichter-Path.wav');  % relative path to the audio file
 t = (0:length(y)-1) / Fs;
 
 figure;
