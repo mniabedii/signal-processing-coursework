@@ -1,0 +1,39 @@
+# VS Code settings and workspace files
+.vscode/
+*.code-workspace
+
+# MATLAB temporary and backup files
+*.asv
+*.m~
+*.mdl
+*.slx
+*.fig
+*.mex*
+
+# MATLAB autosave files
+*.autosave
+
+# Backup and autosave folders
+Backup/
+Autosave/
+
+# MATLAB Editor files
+*.mat
+
+# Output folders or large data files you might want to exclude
+/output/
+/results/
+/temp/
+/tmp/
+/cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.prj
+*.mltbx
+
+# Audio files if you want to exclude large samples (optional)
+# /audio/
