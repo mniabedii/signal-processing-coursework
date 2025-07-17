@@ -24,8 +24,7 @@ Wave
 ## Structure
 
 - `/code/`: MATLAB `.m` files for each task
-- `/report/`: PDF reports explaining each task
-- `/figures/`: Exported plots
+- `/report/`: PDF reports explaining each task and exported figures
 - `/audio/`: Sample files used
 
 ## How to Run
