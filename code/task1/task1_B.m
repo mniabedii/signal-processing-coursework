@@ -11,9 +11,6 @@ for i = 1:length(freqs)
     % Generate sinusoid
     x = amps(i) * sin(2*pi*freqs(i)*t);
     
-    % Normalize to prevent clipping
-    x = x / max(abs(x));
-    
     % Playback
     disp(['Playing ', num2str(freqs(i)), ' Hz...']);
     sound(x, Fs);
