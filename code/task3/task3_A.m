@@ -2,14 +2,16 @@
 
 t = (0:length(y)-1)' / Fs;
 
-% Generate sinusoidal noise at 500 Hz and 1000 Hz
+% Generate sinusoidal noise
 noise_500Hz = 0.15 * sin(2 * pi * 500 * t);
 noise_1000Hz = 0.15 * sin(2 * pi * 1000 * t);
 
-% Combine noise signals
-total_noise = noise_500Hz + noise_1000Hz;
+% Add 500 Hz noise
+y_500Hz_noisy = y + noise_500Hz;
+sound(y_500Hz_noisy, Fs)
+pause(3);
 
-% Add noise to the original signal
-y_noisy = y + total_noise;
-
-sound(y_noisy, Fs)
+% Add 1000 Hz noise
+y_1000Hz_noisy = y + noise_1000Hz;
+sound(y_1000Hz_noisy, Fs)
+pause(3);
