@@ -16,7 +16,7 @@ high_freq_signal = filter(bh, ah, y);  % Tweeter output
 disp('Playing low-frequency (bass) audio...');
 sound(low_freq_signal, Fs);
 
-pause(3);
+pause(15);
 
 disp('Playing high-frequency (trble) audio...');
 sound(high_freq_signal, Fs);
