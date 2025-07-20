@@ -13,8 +13,12 @@ Wn = fc / (Fs / 2);   % Normalize cutoff frequency (Nyquist)
 low_freq_signal = filter(bl, al, y);   % Woofer output
 high_freq_signal = filter(bh, ah, y);  % Tweeter output
 
+disp('Playing low-frequency (bass) audio...');
 sound(low_freq_signal, Fs);
+
 pause(3);
+
+disp('Playing high-frequency (trble) audio...');
 sound(high_freq_signal, Fs);
 
 % Save outputs
