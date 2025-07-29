@@ -25,8 +25,9 @@ Wave
 
 - `/code/`: MATLAB `.m` files for each task
 - `/report/`: PDF reports explaining each task and exported figures
-- `/audio/`: Sample files used
+[View Full Report File (Google Doc)](https://docs.google.com/document/d/1qP-kGddfkml7I7JpP0to5sefRMxKHsXU24O5AE728EA/edit?tab=t.0#heading=h.2xaccc3zm7ez)
+- `/audio/`: Used and generated audio files
 
 ## How to Run
 
-Open any script inside the `/code/TaskX/` folder using MATLAB or MATLAB Online. Each `TaskX_main.m` runs that task end-to-end.
+Open any script inside the `/code/taskX/` folder using MATLAB or MATLAB Online. Each `taskX_X.m` runs that subtask.
