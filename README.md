@@ -25,7 +25,6 @@ Wave
 
 - `/code/`: MATLAB `.m` files for each task
 - `/report/`: PDF reports explaining each task and exported figures
-[View Full Report File (Google Doc)](https://docs.google.com/document/d/1qP-kGddfkml7I7JpP0to5sefRMxKHsXU24O5AE728EA/edit?tab=t.0#heading=h.2xaccc3zm7ez)
 - `/audio/`: Used and generated audio files
 
 ## How to Run
